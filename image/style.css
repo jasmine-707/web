@@ -1,1 +1,9 @@
-
+*{
+  margin: 0;
+  padding: 0;
+}
+.top{
+  width: 1280 px;
+  margin: 0 auto;
+  background: black;
+}
