@@ -48,6 +48,7 @@
            text-align: left-center;
         }
         
+        
         footer {
             text-align: center;
             padding: 10px;
@@ -55,6 +56,11 @@
             color: white;
             margin-top: 20px;
         }
+        
+        iframe {
+            border: none;
+        }  
+        
     </style>
 </head>
 <body>
@@ -131,9 +137,15 @@
     <section>
         <h2>Explore 2024 Japanese Street Food</h2>
         <p>Check out the fish market in Tokyo: 
-        <a href="https://www.youtube.com/embed/ck50tM0JNO4?si=wb-MPAG5Xb2gHGfV">Ultimate Japanese Street Food Tour at Tsukiji Fish Market! </a>.</p>
+        <iframe width="800" height="300" src="https://www.youtube.com/embed/ck50tM0JNO4?si=wb-MPAG5Xb2gHGfV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     
+        </p>
+        
+        <p>
+         <a href="https://youtu.be/g0B-ZgPCUXA?si=S9Oo-8VgKhksvwkj">Local Best Food Guide</a>.
+         </p>
 
-        <p>Click the image below to learn more about the top-rated restaurants in Tokyo:</p>
+        <p>Discover more restaurennts in Tokyo!</p>
         <a href="https://www.timeout.com/tokyo/restaurants">
             <img src="https://example.com/tokyo-food.jpg" alt="Tokyo Food Image">
         </a>
