@@ -141,10 +141,9 @@
         <h2>Explore 2024 Japanese Street Food</h2>
         
         <p>
-        <iframe src="https://www.youtube.com/embed/ck50tM0JNO4?si=wb-MPAG5Xb2gHGfV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-         style="width: 100%; max-width: 800px; height: auto;"
-        </iframe>
-
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/ck50tM0JNO4?si=pqJ0aMEqHPjfMlBw" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+       </iframe>
          <a href="https://youtu.be/g0B-ZgPCUXA?si=S9Oo-8VgKhksvwkj">Local Best Food Guide</a>.
          </p>
 
@@ -154,6 +153,7 @@
               alt="Tokyo Restaurants" 
               style="width: 100%; max-width: 800px; height: auto;">
         </a>
+
     </section>
 </div>
 
