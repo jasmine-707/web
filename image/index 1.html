@@ -3,137 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discover Tokyo Food</title>
+    <title>Tokyo Food Guide</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
+            line-height: 1.6;
+            background-color: #f9f9f9;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #ff4500;
-            color: white;
+            background-color: #ffcc00;
             padding: 20px;
             text-align: center;
         }
-        .container {
-            width: 80%;
-            margin: 20px auto;
+        h1 {
+            color: #333;
         }
-        .food-list {
-            margin-bottom: 20px;
+        .content {
+            margin: 20px;
         }
-        .table-container {
-            display: flex;
-            flex-direction: column;
-        }
-        .row {
-            display: flex;
-            justify-content: space-between;
-            padding: 10px;
-            background-color: #fff;
-            margin-bottom: 10px;
+        .table-div {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
             border: 1px solid #ddd;
+            padding: 10px;
+            margin: 20px 0;
         }
-        .row:nth-child(even) {
-            background-color: #f9f9f9;
+        .table-div div {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+        }
+        .table-div div:last-child {
+            border-right: none;
+        }
+        ul, ol {
+            margin-left: 20px;
+        }
+        .image-link {
+            display: inline-block;
+            margin: 20px 0;
         }
         img {
-            max-width: 100px;
-            border-radius: 10px;
-        }
-        ul {
-            list-style-type: square;
-        }
-        .nested-list ul {
-            list-style-type: circle;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #ff4500;
-            color: white;
-            margin-top: 20px;
+            width: 200px;
+            height: auto;
+            border-radius: 8px;
         }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Explore the Flavors of Tokyo</h1>
-</header>
+    <header>
+        <h1>Welcome to Tokyo's Food Paradise!</h1>
+    </header>
 
-<div class="container">
-    <section>
-        <h2>Welcome to Tokyo's Food Paradise</h2>
-        <p>Tokyo is renowned for its vibrant food scene. Whether you’re after traditional sushi, ramen, or even unique desserts, Tokyo has something for every palate. This guide will take you through some of the most iconic and delicious dishes you can find in the city.</p>
+    <div class="content">
+        <p>Tokyo is a city that offers an incredible variety of foods, from sushi to ramen, and everything in between. The city is known for its fusion of traditional and modern culinary styles.</p>
         
-        <p>From high-end restaurants to street food vendors, the variety of food available in Tokyo is unmatched. The combination of fresh ingredients and skilled chefs makes dining in Tokyo a unique experience.</p>
-    </section>
-
-    <section class="food-list">
+        <p>In this guide, we will explore some of the must-try dishes and restaurants in Tokyo. Whether you’re a fan of fresh seafood or prefer savory street food, Tokyo’s food scene has something for everyone.</p>
+        
         <h2>Popular Dishes in Tokyo</h2>
         <ul>
             <li>Sushi</li>
             <li>Ramen</li>
             <li>Tempura</li>
-            <li>Okonomiyaki</li>
+            <li>Yakiniku</li>
+            <li>Takoyaki</li>
         </ul>
 
-        <h3>Traditional Japanese Food</h3>
-        <div class="nested-list">
-            <ul>
-                <li>Street Food
-                    <ul>
-                        <li>Takoyaki</li>
-                        <li>Yakisoba</li>
-                    </ul>
-                </li>
-                <li>Fine Dining
-                    <ul>
-                        <li>Kaiseki</li>
-                        <li>Soba</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </section>
+        <h2>Top Street Food Locations</h2>
+        <p>If you’re looking to experience local street food, here are some of the best spots in the city:</p>
+        <ul>
+            <li>Nakamise Street</li>
+            <li>Ameya-Yokocho</li>
+            <li>Tsukiji Outer Market
+                <ul>
+                    <li>Fresh sushi stalls</li>
+                    <li>Grilled seafood stands</li>
+                    <li>Japanese sweets vendors</li>
+                </ul>
+            </li>
+        </ul>
 
-    <section class="table-container">
-        <h2>Popular Restaurants in Tokyo</h2>
-        <div class="row">
-            <div>Name: Sukiyabashi Jiro</div>
-            <div>Type: Sushi</div>
-            <div>Price: $$$</div>
-        </div>
-        <div class="row">
-            <div>Name: Ichiran Ramen</div>
-            <div>Type: Ramen</div>
-            <div>Price: $$</div>
-        </div>
-        <div class="row">
-            <div>Name: Tempura Kondo</div>
-            <div>Type: Tempura</div>
-            <div>Price: $$$</div>
-        </div>
-    </section>
+        <h2>Recommended Restaurants</h2>
+        <div class="table-div">
+            <div><strong>Restaurant Name</strong></div>
+            <div><strong>Specialty</strong></div>
+            <div><strong>Location</strong></div>
 
-    <section>
-        <h2>Explore More</h2>
-        <p>For more information about Tokyo food, visit the official <a href="https://www.japan.travel/en/destinations/kanto/tokyo/">Japan National Tourism Organization</a>.</p>
+            <div>Sukiyabashi Jiro</div>
+            <div>Sushi</div>
+            <div>Ginza</div>
 
-        <p>Click the image below to learn more about the top-rated restaurants in Tokyo:</p>
-        <a href="https://www.timeout.com/tokyo/restaurants">
-            <img src="https://example.com/tokyo-food.jpg" alt="Tokyo Food Image">
-        </a>
-    </section>
-</div>
+            <div>Ichiran Ramen</div>
+            <div>Tonkotsu Ramen</div>
+            <div>Shibuya</div>
 
-<footer>
-    <p>&copy; 2024 Explore Tokyo Food. All Rights Reserved.</p>
-</footer>
+            <div>Tempura Kondo</div>
+            <div>Tempura</div>
+            <div>Roppongi</div>
+        </div>
+
+        <p>For more information about Tokyo’s food culture, visit <a href="https://www.japan-guide.com/e/e3021.html" target="_blank">Japan Guide</a>.</p>
+
+        <div class="image-link">
+            <a href="https://www.japan.travel/en/destinations/kanto/tokyo/" target="_blank">
+                <img src="https://example.com/tokyo-food.jpg" alt="Tokyo Food Image">
+            </a>
+        </div>
+
+        <p>Don't miss out on Tokyo's food adventures. Experience the rich flavors and culinary traditions by exploring the city's diverse food scene.</p>
+    </div>
 
 </body>
 </html>
+
