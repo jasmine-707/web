@@ -145,9 +145,9 @@
          <a href="https://youtu.be/g0B-ZgPCUXA?si=S9Oo-8VgKhksvwkj">Local Best Food Guide</a>.
          </p>
 
-        <p>Discover more restaurennts in Tokyo!</p>
-        <a href="https://www.timeout.com/tokyo/restaurants">
-            <img src="img/sushi.jpg" alt="Tokyo Food Image">
+        <p>Discover more restaurants in Tokyo!</p>
+        <a href="https://www.eater.com/maps/best-restaurants-tokyo-japan">
+            <img src="sushi.jpg" alt="Tokyo Restaurants">
         </a>
     </section>
 </div>
