@@ -147,7 +147,7 @@
 
         <p>Discover more restaurants in Tokyo!</p>
         <a href="https://www.eater.com/maps/best-restaurants-tokyo-japan">
-            <img src="https://github.com/jasmine-707/web/blob/main/img/sushi.jpg?raw=true.jpg" alt="Tokyo Restaurants">
+           <img src="https://github.com/jasmine-707/web/blob/main/img/sushi.jpg?raw=true.jpg" alt="Tokyo Restaurants" width="800" height="auto">
         </a>
     </section>
 </div>
