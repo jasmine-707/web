@@ -106,18 +106,23 @@
   <tr>
     <th>Restaurant Name</th>
     <th>Price</th>
+    <th>Location</th>
+    
   </tr>
   <tr>
     <td>Ichiran Ramen</td>
     <td>$$</td>
+    <td>Shibuya</td>
   </tr>
   <tr>
     <td>Tamawarai </td>
     <td>$$$</td>
+    <td>Ueno</td>
   </tr>
    <tr>
     <td>Isetan Shinjuku</td>
     <td>$$</td>
+    <td>Shinjuku</td>
   </tr>
   
 </table>      
