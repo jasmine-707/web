@@ -9,7 +9,8 @@
             background-color: #FDFDFA;
             color: #333333;
             margin: 0;
-            padding: 0;
+            padding:0;
+            font-size: 1em;
         }
         
         h2{
@@ -24,38 +25,29 @@
             padding: 20px;
             text-align: center;
         }
+        
         .container {
             width: 80%;
-            margin: 20px auto;
+            margin: 20px;
         }
+        
         .food-list {
             margin-bottom: 20px;
         }
+        
         .table-container {
             display: flex;
             flex-direction: column;
+            border: 20 radius;
+         }
+        
+            th, td {
+           padding: 10px;
+           border-radius: 4px;
+           border: 1px solid;
+           text-align: left-center;
         }
-        .row {
-            display: flex;
-            justify-content: space-between;
-            padding: 10px;
-            background-color: #fff;
-            margin-bottom: 10px;
-            border: 1px solid #ddd;
-        }
-        .row:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-        img {
-            max-width: 100px;
-            border-radius: 10px;
-        }
-        ul {
-            list-style-type: square;
-        }
-        .nested-list ul {
-            list-style-type: circle;
-        }
+        
         footer {
             text-align: center;
             padding: 10px;
@@ -107,28 +99,34 @@
         </div>
     </section>
 
-    <section class="table-container">
-        <h2>Popular Restaurants in Tokyo</h2>
-        <div class="row">
-            <div>Name: Sukiyabashi Jiro</div>
-            <div>Type: Sushi</div>
-            <div>Price: $$$</div>
-        </div>
-        <div class="row">
-            <div>Name: Ichiran Ramen</div>
-            <div>Type: Ramen</div>
-            <div>Price: $$</div>
-        </div>
-        <div class="row">
-            <div>Name: Tempura Kondo</div>
-            <div>Type: Tempura</div>
-            <div>Price: $$$</div>
-        </div>
+  
+   <section class="table-container">
+        <h2>Popular Restaurants in Tokyo</h2>        
+    <table>
+  <tr>
+    <th>Restaurant Name</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Ichiran Ramen</td>
+    <td>$$</td>
+  </tr>
+  <tr>
+    <td>Tamawarai </td>
+    <td>$$$</td>
+  </tr>
+   <tr>
+    <td>Isetan Shinjuku</td>
+    <td>$$</td>
+  </tr>
+  
+</table>      
     </section>
 
     <section>
-        <h2>Explore More</h2>
-        <p>For more information about Tokyo food, visit the official <a href="https://www.japan.travel/en/destinations/kanto/tokyo/">Japan National Tourism Organization</a>.</p>
+        <h2>Explore 2024 Japanese Street Food</h2>
+        <p>Check out the fish market in Tokyo: 
+        <a href="https://www.youtube.com/embed/ck50tM0JNO4?si=wb-MPAG5Xb2gHGfV">Ultimate Japanese Street Food Tour at Tsukiji Fish Market! </a>.</p>
 
         <p>Click the image below to learn more about the top-rated restaurants in Tokyo:</p>
         <a href="https://www.timeout.com/tokyo/restaurants">
