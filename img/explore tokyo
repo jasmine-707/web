@@ -39,6 +39,7 @@
             display: flex;
             flex-direction: column;
             border: 20 radius;
+            tabel-align: center;
          }
         
             th, td {
@@ -136,7 +137,6 @@
 
     <section>
         <h2>Explore 2024 Japanese Street Food</h2>
-        <p>Check out the fish market in Tokyo: 
         <iframe width="800" height="300" src="https://www.youtube.com/embed/ck50tM0JNO4?si=wb-MPAG5Xb2gHGfV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
      
         </p>
