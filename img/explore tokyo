@@ -1,1 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome To Tokyo</title>
+    <style>
+        body {
+            font-family: Chivo, sans-serif;
+            background-color: #FDFDFA;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+        
+        h2{
+            font-size: 1.5em;
+            font-weight: medium;
+            }
 
+
+        header {
+            background-color: #345544;
+            color: #FDFDFA;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .food-list {
+            margin-bottom: 20px;
+        }
+        .table-container {
+            display: flex;
+            flex-direction: column;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: #fff;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+        }
+        .row:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        img {
+            max-width: 100px;
+            border-radius: 10px;
+        }
+        ul {
+            list-style-type: square;
+        }
+        .nested-list ul {
+            list-style-type: circle;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ff4500;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome To Tokyo</h1>
+</header>
+
+<div class="container">
+    <section>
+        <h2>Tokyo Food Guide</h2>
+        <p>Tokyo is renowned for its vibrant food scene. Whether you’re after traditional sushi, ramen, or even unique desserts, Tokyo has something for every palate. This guide will take you through some of the most iconic and delicious dishes you can find in the city.</p>
+        
+        <p>From high-end restaurants to street food vendors, the variety of food available in Tokyo is unmatched. The combination of fresh ingredients and skilled chefs makes dining in Tokyo a unique experience.</p>
+    </section>
+
+    <section class="food-list">
+        <h2>Popular Dishes in Tokyo</h2>
+        <ul>
+            <li>Sushi</li>
+            <li>Ramen</li>
+            <li>Tempura</li>
+            <li>Okonomiyaki</li>
+        </ul>
+
+        <h3>Traditional Japanese Food</h3>
+        <div class="nested-list">
+            <ul>
+                <li>Street Food
+                    <ul>
+                        <li>Takoyaki</li>
+                        <li>Yakisoba</li>
+                    </ul>
+                </li>
+                <li>Fine Dining
+                    <ul>
+                        <li>Kaiseki</li>
+                        <li>Soba</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="table-container">
+        <h2>Popular Restaurants in Tokyo</h2>
+        <div class="row">
+            <div>Name: Sukiyabashi Jiro</div>
+            <div>Type: Sushi</div>
+            <div>Price: $$$</div>
+        </div>
+        <div class="row">
+            <div>Name: Ichiran Ramen</div>
+            <div>Type: Ramen</div>
+            <div>Price: $$</div>
+        </div>
+        <div class="row">
+            <div>Name: Tempura Kondo</div>
+            <div>Type: Tempura</div>
+            <div>Price: $$$</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Explore More</h2>
+        <p>For more information about Tokyo food, visit the official <a href="https://www.japan.travel/en/destinations/kanto/tokyo/">Japan National Tourism Organization</a>.</p>
+
+        <p>Click the image below to learn more about the top-rated restaurants in Tokyo:</p>
+        <a href="https://www.timeout.com/tokyo/restaurants">
+            <img src="https://example.com/tokyo-food.jpg" alt="Tokyo Food Image">
+        </a>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Jasmine Chen.</p>
+</footer>
+
+</body>
+</html>
