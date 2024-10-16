@@ -147,7 +147,7 @@
 
         <p>Discover more restaurennts in Tokyo!</p>
         <a href="https://www.timeout.com/tokyo/restaurants">
-            <img src="https://example.com/tokyo-food.jpg" alt="Tokyo Food Image">
+            <img src="img/sushi.jpg" alt="Tokyo Food Image">
         </a>
     </section>
 </div>
