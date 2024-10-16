@@ -3,14 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<div class="topnav">
+    <div class="topnav">
   <a class="active" href="#home">Home</a>
   <a href="#Food">Food</a>
   <a href="#travel">Travel</a>
   
 </div>
-
     <title>Welcome To Tokyo</title>
     <style>
     
@@ -101,6 +99,10 @@
         }  
         
     </style>
+    <link rel="stylesheet" href="styles.css">
+    
+    
+    
     
     
 </head>
@@ -200,4 +202,5 @@
     <p>&copy; 2024 Jasmine Chen. Copyrights Reserved.</p>
 </footer>
 
+</body>
 </html>
